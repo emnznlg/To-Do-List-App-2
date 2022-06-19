@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 150px;
+}
+
+.wrapper .input-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #95a0f7;
+  padding: 15px 20px;
+  width: 400px;
+}
+
+.input-area input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  width: 90%;
+  font-size: 18px;
+  color: #fff;
+}
+
+.input-area button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  transition: all 0.2s ease;
+}
+
+.todo-area {
+  width: 400px;
+  margin-top: 50px;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 20px 0;
+  border-bottom: 1px solid #95a0f7;
+}
+
+.todo .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo i {
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 18px;
+}
+
+.todo .fa-check {
+  margin-right: 15px;
+}
+
+.todo .fa-check:hover {
+  color: #619b8a;
+}
+
+.todo .fa-trash:hover {
+  color: #ff595e;
+}
